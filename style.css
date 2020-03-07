@@ -1,0 +1,16 @@
+body {
+    background-color: azure;
+}
+
+h1 {
+    color: rgb(119, 139, 235);
+    transition: .5s color ease-in-out;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.clicked {
+    color: rgb(99, 205, 218);
+}
