@@ -1,10 +1,6 @@
 body {
     background-color: azure;
-}
-
-h1 {
     color: rgb(119, 139, 235);
-    transition: .5s color ease-in-out;
 }
 
 .btn {
@@ -13,4 +9,13 @@ h1 {
 
 .clicked {
     color: rgb(99, 205, 218);
+}
+
+.form,
+.greetings {
+    display: none;
+}
+
+.showing {
+    display: block;
 }
