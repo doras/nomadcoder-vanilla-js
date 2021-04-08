@@ -7,12 +7,6 @@ const CSS_TODO_CN = "css-todo";
 
 let toDos = [];
 
-function adjustToDosId() {
-    let i;
-    for (i = 0; i < toDos.length; ++i) {
-        toDos[i].id = i;
-    }
-}
 
 function deleteToDo(event) {
     const li = event.target.parentNode;
@@ -21,7 +15,6 @@ function deleteToDo(event) {
     toDos = toDos.filter(function(toDo) {
         return toDo.id !== parseInt(li.id);
     });
-    adjustToDosId();
     saveToDos();
 }
 
