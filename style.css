@@ -1,5 +1,5 @@
 body {
-    background-color: azure;
+    background-color: #2c3e50;
     color: rgb(119, 139, 235);
 }
 
@@ -12,7 +12,8 @@ body {
 }
 
 .form,
-.greetings {
+.greetings,
+.unloadedImg {
     display: none;
 }
 
@@ -32,7 +33,7 @@ body {
     }
 }
 
-.bgImg {
+.loadedImg {
     position: absolute;
     top: 0;
     left: 0;
